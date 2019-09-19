@@ -7,8 +7,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Backroads',
-    description: 'Backroads - Tour Experience',
+    title: 'BackRoads',
+    description: 'BackRoads - Tour Experience',
     author: 'Farid Benmebarek'
   },
   plugins: [
@@ -18,5 +18,15 @@ module.exports = {
         // Add any options here
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-transition-link`
   ],
 }
