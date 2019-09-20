@@ -26,6 +26,7 @@ const Navbar = () => {
           {links.map((item, index) => {
             return (<li key={index}><AniLink fade to={item.path}>{item.text}</AniLink></li>)
           })}
+          <li key={4}><AniLink cover direction="right" bg="#fff" to="/contact">contact</AniLink></li>
         </ul>
         <div className={styles.navSocialLinks}>{socialIcons.map((item, index) =>{
           return <a key={index} href={item.url} target="_blank" rel="noopener noreferrer">{item.icon}</a>

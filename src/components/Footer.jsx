@@ -11,6 +11,7 @@ const Footer = () => {
         {links.map((item, index) => {
           return (<AniLink fade key={index} to={item.path}>{item.text}</AniLink>)
         })}
+        <AniLink cover direction="right" bg="#fff" key={4} to="/contact">contact</AniLink>
       </div>
       <div className={styles.icons}>
         {socialIcons.map((item, index)=>{
