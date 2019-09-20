@@ -2,16 +2,18 @@ import React from "react"
 import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
+import Contact from "../components/Contact/Contact"
 
-function Contact ({data}) {
+function contact ({data}) {
   return (
     <Layout>
       <StyledHero img={data.connectBcg.childImageSharp.fluid}/>
+      <Contact />
     </Layout>
   )
 }
 
-export default Contact
+export default contact
 
 export const query = graphql`
     query {

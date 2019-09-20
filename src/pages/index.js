@@ -13,7 +13,7 @@ export default ({data}) => {
       <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
         <Banner title="continue exploring"
                 info="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, quae.">
-          <AniLink fade to="/tours" className="btn-white">explore tours</AniLink>
+          <AniLink paintDrip hex="#fff" to="/tours" className="btn-white">explore tours</AniLink>
         </Banner>
       </StyledHero>
       <About/>
