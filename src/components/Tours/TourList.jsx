@@ -19,7 +19,7 @@ class TourList extends Component {
   render () {
     return (
       <section className={styles.tours}>
-        <Title title="our" subtitle="tours"/>
+        <Title title="nos" subtitle="tours"/>
         <div className={styles.center}>
           {
             this.state.sortedTours.map(({node}) => {

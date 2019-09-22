@@ -21,7 +21,7 @@ const About = () => {
 
   return (
     <section className={styles.about}>
-      <Title title="about" subtitle="us"/>
+      <Title title="à propos de" subtitle="nous"/>
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
@@ -29,10 +29,10 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>explore the difference</h4>
+          <h4>explorer la difference</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est illum nostrum quibusdam?</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est illum nostrum quibusdam?</p>
-          <button type="button" className="btn-primary">read more</button>
+          <button type="button" className="btn-primary">Lire</button>
         </article>
       </div>
     </section>

@@ -38,7 +38,7 @@ const Tour = ({ tour }) => {
     <article className={styles.tour}>
       <div className={styles.imgContainer}>
         <Image fluid={mainImage} className={styles.img} alt="single tour"/>
-        <AniLink fade className={styles.link} to={`/tours/${slug}`}>details</AniLink>
+        <AniLink fade className={styles.link} to={`/tours/${slug}`}>+ d'infos</AniLink>
       </div>
       <div className={styles.footer}>
         <h3>{name}</h3>
@@ -48,8 +48,8 @@ const Tour = ({ tour }) => {
             {country || "default country"}
           </h4>
           <div className={styles.details}>
-            <h6>{days} days</h6>
-            <h6>from ${price}</h6>
+            <h6>{days} jours</h6>
+            <h6>pour {price}€</h6>
           </div>
         </div>
       </div>

@@ -5,11 +5,11 @@ import styles from '../../css/contact.module.css'
 const Contact = () => {
   return (
     <section className={styles.contact}>
-      <Title title="contact" subtitle="us"/>
+      <Title title="nous" subtitle="contacter"/>
       <div className={styles.center}>
         <form className={styles.form} action="https://formspree.io/farid.benmebarek@hotmail.fr" method="POST">
           <div>
-            <label htmlFor="name">name</label>
+            <label htmlFor="name">nom</label>
             <input type="text" name="name" id="name" className={styles.formControl} placeholder="john doe"/>
           </div>
           <div>
@@ -18,10 +18,10 @@ const Contact = () => {
           </div>
           <div>
             <label htmlFor="message">message</label>
-            <textarea name="message" id="message" rows="10" className={styles.formControl} placeholder="hello there"/>
+            <textarea name="message" id="message" rows="10" className={styles.formControl} placeholder="votre message..."/>
           </div>
           <div>
-            <input type="submit" value="send" className={styles.submit}/>
+            <input type="submit" value="envoyer" className={styles.submit}/>
           </div>
         </form>
       </div>

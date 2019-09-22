@@ -19,10 +19,10 @@ const Footer = () => {
         })}
       </div>
       <div className={styles.copyright}>
-        copyright &copy; Backroads Travel Company {new Date().getFullYear()} all right reserved
+        copyright &copy; Backroads Travel Company {new Date().getFullYear()} tous droits réservés
       </div>
       <div className={styles.amiral}>
-        By <a href="https://farid-benmebarek.fr" target="_blank" rel="noopener noreferrer">Amiral du Web</a>
+        Réalisé par <a href="https://farid-benmebarek.fr" target="_blank" rel="noopener noreferrer">Amiral du Web</a>
       </div>
     </footer>
   )
