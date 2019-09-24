@@ -12,7 +12,10 @@ module.exports = {
   siteMetadata: {
     title: 'BackRoads',
     description: 'BackRoads - Tour Experience',
-    author: 'Farid Benmebarek'
+    author: 'Farid Benmebarek',
+    twitterUsername: "@_MebareK_",
+    image:'/defaultBcg.jpeg',
+    siteUrl:'https://backroads-site.netlify.com'
   },
   plugins: [
     {
@@ -38,6 +41,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-transition-link`
+    `gatsby-plugin-transition-link`,
+    `gatsby-plugin-react-helmet`
   ],
 }
