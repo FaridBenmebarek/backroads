@@ -10,15 +10,15 @@ const Contact = () => {
         <form className={styles.form} action="https://formspree.io/farid.benmebarek@hotmail.fr" method="POST">
           <div>
             <label htmlFor="name">nom</label>
-            <input type="text" name="name" id="name" className={styles.formControl} placeholder="john doe"/>
+            <input required type="text" name="name" id="name" className={styles.formControl} placeholder="john doe"/>
           </div>
           <div>
             <label htmlFor="email">email</label>
-            <input type="email" name="email" id="email" className={styles.formControl} placeholder="example@email.com"/>
+            <input required type="email" name="email" id="email" className={styles.formControl} placeholder="example@email.com"/>
           </div>
           <div>
             <label htmlFor="message">message</label>
-            <textarea name="message" id="message" rows="10" className={styles.formControl} placeholder="votre message..."/>
+            <textarea required name="message" id="message" rows="10" className={styles.formControl} placeholder="votre message..."/>
           </div>
           <div>
             <input type="submit" value="envoyer" className={styles.submit}/>
