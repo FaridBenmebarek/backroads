@@ -8,7 +8,7 @@ import SEO from "../components/SEO"
 function error (props) {
   return (
     <Layout>
-      <SEO title="Oups..." />
+      <SEO title="Oops..." />
       <header className={styles.error}>
         <Banner title="oops it's a dead end">
           <AniLink fade to="/" className="btn-white">back to home page</AniLink>

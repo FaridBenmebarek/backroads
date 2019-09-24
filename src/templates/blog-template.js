@@ -32,7 +32,7 @@ const Blog = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title={title} />
      <section className={styles.blog}>
        <div className={styles.center}>
          <h1>{title}</h1>
