@@ -5,6 +5,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import styles from "../css/blog.module.css"
 import BlogCard from "../components/Blog/BlogCard"
 import Title from "../components/Title"
+import SEO from "../components/SEO"
 
 const Blog = (props) => {
 
@@ -21,6 +22,7 @@ const Blog = (props) => {
 
   return (
     <Layout>
+      <SEO title="Liste Blogs" />
       <section className={styles.blog}>
         <Title title="derniers" subtitle="posts"/>
         <div className={styles.center}>
